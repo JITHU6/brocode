@@ -27,8 +27,8 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
-PAYTM_MERCHANT_ID = 'xqnjKV49211033731537'
-PAYTM_SECRET_KEY = 'MN2LcCk%UTL94D!m'
+PAYTM_MERCHANT_ID = ''
+PAYTM_SECRET_KEY = ''
 PAYTM_WEBSITE = 'WEBSTAGING'
 PAYTM_CHANNEL_ID = 'WEB'
 PAYTM_INDUSTRY_TYPE_ID = 'Retail'
@@ -38,8 +38,8 @@ EMAIL_BACKEND ='django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_USE_TLS = True
 EMAIL_PORT = 587
-EMAIL_HOST_USER = 'ai.brocode@gmail.com'
-EMAIL_HOST_PASSWORD = 'brocodeai@20'
+EMAIL_HOST_USER = ''
+EMAIL_HOST_PASSWORD = ''
 
 # Application definition
 
