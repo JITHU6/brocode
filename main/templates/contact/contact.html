@@ -1,0 +1,152 @@
+{% extends "header.html" %}
+
+{% block content %}
+{% load static %}
+
+
+        <!-- Breadcrumb Area -->
+        <section id="breadcrumb-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <h1>Contact Us</h1>
+                        <ul class="breadcrumb-nav list-inline">
+                            <li><a href="index-2.html">Home</a></li>
+                            <li class="active">Contact Us</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </header>
+    <!-- End: Header
+    ============================= -->
+
+    <!-- End: Contact Us Office
+    ============================= -->
+    <section id="contact-us-page">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-6 col-12 mb-lg-0 mb-5">
+                    <div class="office">
+                        <i class="icon icofont icofont-location-pin"></i>
+                        <h4></h4>
+                        <ul>
+                            <li> </li>
+                            <li> </li>
+                            <li></li>
+                        </ul>
+                        <ul class="contact-social">
+<!--                            <li><a href="#"><i class="icofont icofont-social-twitter"></i></a></li>-->
+<!--                            <li><a href="#"><i class="icofont icofont-social-linkedin"></i></a></li>-->
+<!--                            <li><a href="#"><i class="icofont icofont-social-tumblr"></i></a></li>-->
+<!--                            <li><a href="#"><i class="icofont icofont-social-dribbble"></i></a></li>-->
+<!--                            <li><a href="#"><i class="icofont icofont-social-instagram"></i></a></li>-->
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6 col-12 mb-lg-0 mb-5">
+                    <div class="office">
+                        <i class="icon icofont icofont-location-pin"></i>
+                        <h4>India office address</h4>
+                        <ul>
+                            <li>Street : Irrity</li>
+                            <li>City : Kannur </li>
+                            <li>Zip Code : 670 632</li>
+                        </ul>
+                        <ul class="contact-social">
+<!--                            <li><a href="#"><i class="icofont icofont-social-twitter"></i></a></li>-->
+<!--                            <li><a href="#"><i class="icofont icofont-social-linkedin"></i></a></li>-->
+<!--                            <li><a href="#"><i class="icofont icofont-social-tumblr"></i></a></li>-->
+<!--                            <li><a href="#"><i class="icofont icofont-social-dribbble"></i></a></li>-->
+<!--                            <li><a href="#"><i class="icofont icofont-social-instagram"></i></a></li>-->
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                    <div class="office">
+                        <i class="icon icofont icofont-location-pin"></i>
+                        <h4></h4>
+                        <ul>
+                            <li> </li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                        <ul class="contact-social">
+<!--                            <li><a href="#"><i class="icofont icofont-social-twitter"></i></a></li>-->
+<!--                            <li><a href="#"><i class="icofont icofont-social-linkedin"></i></a></li>-->
+<!--                            <li><a href="#"><i class="icofont icofont-social-tumblr"></i></a></li>-->
+<!--                            <li><a href="#"><i class="icofont icofont-social-dribbble"></i></a></li>-->
+<!--                            <li><a href="#"><i class="icofont icofont-social-instagram"></i></a></li>-->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- End: Contact Us Office
+    ============================= -->
+
+    <!-- Start: Contact Us
+    ============================= -->
+    <section id="contact-area">
+        <div id="map"></div>
+        <div class="contact-box">
+
+            <div class="row">
+                <div class="col-lg-5 col-md-12">
+                    <div class="contact-us-info">
+                        <h3>Contact Us</h3>
+                        <ul class="contact-info">
+                            <li class="contact-address">
+                                <i class="icofont icofont-location-pin"></i>
+                                <p>Kannur, Kerala 670632 </p>
+                            </li>
+                            <li class="contact-email">
+                                <i class="icofont icofont-email"></i>
+                                <p><a href="#" class="__cf_email__" data-cfemail="9ff2fef6f3dffcf0f2effef1e6b1fcf0f2">[email&#160;protected]</a>
+                                    <br> <a href="#" class="__cf_email__" data-cfemail="a2cbccc4cde2c6cdcfc3cbcc8cc1cdcf">[email&#160;protected]</a></p>
+                            </li>
+                            <li class="contact-phone">
+                                <i class="icofont icofont-ui-call"></i>
+                                <p>+91 9497609019
+<!--                                    <br> +5-402-555-0107</p>-->
+                            </li>
+                        </ul>
+<!--                        <a href="#" class="live-chat boxed-btn">Live Chat</a>-->
+                    </div>
+                </div>
+                <div class="col-lg-7 col-md-12">
+                    <div class="get-in-touch">
+                        <h3>Get in Touch</h3>
+                        <p>Feel free to contact with us</p>
+                        {% if success %}
+                        <p>{{ success }}</p>
+                        {% else %}
+                        <form action="/subscribe/" method="POST">
+                        <!-- Very Important csrf Token -->
+                        {% csrf_token %}
+                        <div class = "form-group">
+                            <p>
+                            <h3>{{ form.as_p }}</h3>
+                            </p>
+                            <br>
+                            <input type="submit" name="Subscribe" class = 'btn btn-primary btn-lg'>
+                        </div>
+                        </form>
+                        {% endif %}
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+    <!-- End: Contact Us
+    ============================= -->
+
+
+{% endblock %}

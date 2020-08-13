@@ -1,0 +1,726 @@
+{% extends "header.html" %}
+
+
+
+{% block content %}
+{% load static %}
+<!-- Header Slider -->
+        <div class="row">
+            <div class="col-md-12">
+                <div class="header-slider">
+                    <div class="header-single-slider">
+                        <figure>
+                            <img src="{% static 'img/homepage/slider/slider01.jpg'  %}" alt="">
+                            <figcaption>
+                                <div class="content">
+                                    <div class="container inner-content text-left">
+                                        <h1>Strengths of Successful Businesses</h1>
+                                        <p>Randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anembarrassing hidden in the middle of text.</p>
+                                        <a href="#" class="boxed-btn">Explore More <i class="icofont icofont-long-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="header-single-slider">
+                        <figure>
+                            <img src="{% static 'img/homepage/slider/slider02.jpg'  %}" alt="">
+                            <figcaption>
+                                <div class="content">
+                                    <div class="container inner-content text-center">
+                                        <h1>Strengths of Successful Businesses</h1>
+                                        <p>Randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anembarrassing hidden in the middle of text.</p>
+                                        <a href="#" class="boxed-btn">Explore More <i class="icofont icofont-long-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="header-single-slider">
+                        <figure>
+                            <img src="{% static 'img/homepage/slider/slider03.jpg'  %}" alt="">
+                            <figcaption>
+                                <div class="content">
+                                    <div class="container inner-content text-right">
+                                        <h1>Strengths of Successful <br> Businesses</h1>
+                                        <p>Randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anembarrassing hidden in the middle of text.</p>
+                                        <a href="#" class="boxed-btn">Explore More <i class="icofont icofont-long-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+ <!-- Start: Features List
+    ============================= -->
+    <section id="features-list">
+        <div class="container">
+            <div class="row text-lg-left text-md-center">
+                <div class="col-md-4 mb-lg-0 mb-3">
+                    <div class="features-list-item wow fadeInUp" data-wow-delay="0.1s">
+                        <span class="icon"><i class="icofont icofont-triangle"></i></span>
+                        <h4>Design For Business</h4>
+                        <p class="small">The chunk standard of Lorem Ipsum used since the 900s is reproduced below</p>
+                        <a href="#" class="view-more">View more</a>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-md-0 mb-3">
+                    <div class="features-list-item wow fadeInUp" data-wow-delay="0.2s">
+                        <span class="icon"><i class="icofont icofont-brand-airtel"></i></span>
+                        <h4>Develop For Work</h4>
+                        <p class="small">The chunk standard of Lorem Ipsum used since the 900s is reproduced below</p>
+                        <a href="#" class="view-more">View more</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="features-list-item wow fadeInUp" data-wow-delay="0.3s">
+                        <span class="icon"><i class="icofont icofont-brand-teliasonera"></i></span>
+                        <h4>Maketing For Blast</h4>
+                        <p class="small">The chunk standard of Lorem Ipsum used since the 900s is reproduced below</p>
+                        <a href="#" class="view-more">View more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End: Features List
+    ============================= -->
+
+    <!-- Start: Call Out
+    ============================= -->
+    <section id="call-out">
+        <div class="container">
+            <div class="row call-out">
+                <div class="col-lg-9 col-md-7 col-12 text-md-left text-center mb-md-0 mb-4">
+                    <h3>All of your favorite people</h3>
+                    <p>Welcome to connect with us!</p>
+                </div>
+                <div class="col-lg-3 col-md-5 col-12 text-md-right text-center">
+                    <a href="#" class="boxed-btn">Connect Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End: Call Out
+    ============================= -->
+
+    <!-- Start: Portfolio
+    ============================= -->
+<!--    <section id="portfolio" class="portfolio-masonary section-padding-top">-->
+<!--        <div class="container">-->
+<!--            <div class="row">-->
+<!--                <div class="col-md-6 offset-md-3 text-center">-->
+<!--                    <div class="section-header">-->
+<!--                        <h2>Portfolio</h2>-->
+<!--                        <p class="wow fadeInUp" data-wow-delay="0.1s">Publishing packages and web page editors now use Lorem Ipsum as their default model text</p>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            <div class="row portfolio-tab">-->
+<!--                <div class="col-md-12 text-center">-->
+<!--                    <ul class="portfolio-tab-sorting sorting-btn" id="filter">-->
+<!--                        <li><a href="#" data-group="Show All" class="active"><i class="icofont icofont-volleyball-alt"></i> Show All</a></li>-->
+<!--                        <li><a href="#" data-group="Branding"><i class="icofont icofont-brand-adidas"></i> Branding</a></li>-->
+<!--                        <li><a href="#" data-group="Web"><i class="icofont icofont-news"></i> Web</a></li>-->
+<!--                        <li><a href="#" data-group="Creative"><i class="icofont icofont-news"></i> Creative</a></li>-->
+<!--                        <li><a href="#" data-group="More"><i class="icofont icofont-news"></i> More</a></li>-->
+<!--                    </ul>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            <div class="row portfolio" id="grid">-->
+<!--                <div class="col-lg-3 col-md-6 col-sm-6 col-12" data-groups='["Creative", "More", "Show All"]'>-->
+<!--                    <figure>-->
+<!--                        <img src="assets/img/homepage/portfolio/portfolio01.jpg" alt="">-->
+<!--                        <figcaption>-->
+<!--                            <div class="inner-text">-->
+<!--                                <h4>Business Style</h4>-->
+<!--                                <p>Randomised words which don look even slightly believable. If going to use a passage of Lorem</p>-->
+<!--                                <a href="#" class="view-more">View more</a>-->
+<!--                                <a href="#"><img src="assets/img/portfolio-hover.png" alt=""></a>-->
+<!--                            </div>-->
+<!--                        </figcaption>-->
+<!--                    </figure>-->
+<!--                </div>-->
+<!--                <div class="col-lg-3 col-md-6 col-sm-6 col-12" data-groups='["Branding", "Creative", "Show All"]'>-->
+<!--                    <figure>-->
+<!--                        <img src="assets/img/homepage/portfolio/portfolio02.jpg" alt="">-->
+<!--                        <figcaption>-->
+<!--                            <div class="inner-text">-->
+<!--                                <h4>Business Style</h4>-->
+<!--                                <p>Randomised words which don look even slightly believable. If going to use a passage of Lorem</p>-->
+<!--                                <a href="#" class="view-more">View more</a>-->
+<!--                                <a href="#"><img src="assets/img/portfolio-hover.png" alt=""></a>-->
+<!--                            </div>-->
+<!--                        </figcaption>-->
+<!--                    </figure>-->
+<!--                </div>-->
+<!--                <div class="col-lg-3 col-md-6 col-sm-6 col-12" data-groups='["Branding", "Web", "Show All"]'>-->
+<!--                    <figure>-->
+<!--                        <img src="assets/img/homepage/portfolio/portfolio03.jpg" alt="">-->
+<!--                        <figcaption>-->
+<!--                            <div class="inner-text">-->
+<!--                                <h4>Business Style</h4>-->
+<!--                                <p>Randomised words which don look even slightly believable. If going to use a passage of Lorem</p>-->
+<!--                                <a href="#" class="view-more">View more</a>-->
+<!--                                <a href="#"><img src="assets/img/portfolio-hover.png" alt=""></a>-->
+<!--                            </div>-->
+<!--                        </figcaption>-->
+<!--                    </figure>-->
+<!--                </div>-->
+<!--                <div class="col-lg-3 col-md-6 col-sm-6 col-12" data-groups='["Branding","Creative", "Show All"]'>-->
+<!--                    <figure>-->
+<!--                        <img src="assets/img/homepage/portfolio/portfolio04.jpg" alt="">-->
+<!--                        <figcaption>-->
+<!--                            <div class="inner-text">-->
+<!--                                <h4>Business Style</h4>-->
+<!--                                <p>Randomised words which don look even slightly believable. If going to use a passage of Lorem</p>-->
+<!--                                <a href="#" class="view-more">View more</a>-->
+<!--                                <a href="#"><img src="assets/img/portfolio-hover.png" alt=""></a>-->
+<!--                            </div>-->
+<!--                        </figcaption>-->
+<!--                    </figure>-->
+<!--                </div>-->
+<!--                <div class="col-lg-3 col-md-6 col-sm-6 col-12" data-groups='["Branding","Creative", "Show All"]'>-->
+<!--                    <figure>-->
+<!--                        <img src="assets/img/homepage/portfolio/portfolio06.jpg" alt="">-->
+<!--                        <figcaption>-->
+<!--                            <div class="inner-text">-->
+<!--                                <h4>Business Style</h4>-->
+<!--                                <p>Randomised words which don look even slightly believable. If going to use a passage of Lorem</p>-->
+<!--                                <a href="#" class="view-more">View more</a>-->
+<!--                                <a href="#"><img src="assets/img/portfolio-hover.png" alt=""></a>-->
+<!--                            </div>-->
+<!--                        </figcaption>-->
+<!--                    </figure>-->
+<!--                </div>-->
+<!--                <div class="col-lg-6 col-md-12 col-sm-12 col-12" data-groups='["Branding","More", "Show All"]'>-->
+<!--                    <figure>-->
+<!--                        <img src="assets/img/homepage/portfolio/portfolio05.jpg" alt="">-->
+<!--                        <figcaption>-->
+<!--                            <div class="inner-text">-->
+<!--                                <h4>Business Style</h4>-->
+<!--                                <p>Randomised words which don look even slightly believable. If going to use a passage of Lorem</p>-->
+<!--                                <a href="#" class="view-more">View more</a>-->
+<!--                                <a href="#"><img src="assets/img/portfolio-hover.png" alt=""></a>-->
+<!--                            </div>-->
+<!--                        </figcaption>-->
+<!--                    </figure>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </section>-->
+    <!-- End: Portfolio
+    ============================= -->
+
+    <!-- Start: Features
+    ============================= -->
+<!--    <section id="features" class="section-padding-top">-->
+<!--        <div class="container">-->
+<!--            <div class="row">-->
+<!--                <div class="col-md-6 offset-md-3 text-center">-->
+<!--                    <div class="section-header">-->
+<!--                        <h2>Features</h2>-->
+<!--                        <p>Publishing packages and web page editors now use Lorem Ipsum as their default model text</p>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            <div class="row text-center">-->
+<!--                <div class="col-lg-3 col-md-6 col-sm-6 col-12 mb-lg-0 mb-4">-->
+<!--                    <div class="features-item item-1 wow fadeInUp" data-wow-delay="0.1s">-->
+<!--                        <i class="icofont icofont-earphone"></i>-->
+<!--                        <h5>Provide Idea</h5>-->
+<!--                        <p class="small">The five key functions of a financial system in a country are standard chunk of Lorem Ipsum use</p>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="col-lg-3 col-md-6 col-sm-6 col-12 mb-lg-0  mb-4">-->
+<!--                    <div class="features-item item-2 wow fadeInUp" data-wow-delay="0.2s">-->
+<!--                        <i class="icofont icofont-vehicle-crane"></i>-->
+<!--                        <h5>Business develop</h5>-->
+<!--                        <p class="small">The five key functions of a financial system in a country are standard chunk of Lorem Ipsum use</p>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="col-lg-3 col-md-6 col-sm-6 col-12 mb-md-0 mb-lg-0  mb-4">-->
+<!--                    <div class="features-item item-3 wow fadeInUp" data-wow-delay="0.3s">-->
+<!--                        <i class="icofont icofont-architecture-alt"></i>-->
+<!--                        <h5>People research</h5>-->
+<!--                        <p class="small">The five key functions of a financial system in a country are standard chunk of Lorem Ipsum use</p>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="col-lg-3 col-md-6 col-sm-6 col-12">-->
+<!--                    <div class="features-item item-4 wow fadeInUp" data-wow-delay="0.4s">-->
+<!--                        <i class="icofont icofont-brand-tribenet"></i>-->
+<!--                        <h5>Marketing</h5>-->
+<!--                        <p class="small">The five key functions of a financial system in a country are standard chunk of Lorem Ipsum use</p>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </section>-->
+    <!-- End: Feautres
+    ============================= -->
+
+    <!-- Start: Services
+    ============================= -->
+    <section id="services" class="section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 offset-md-3 text-center">
+                    <div class="section-header">
+                        <h2>Services</h2>
+                        <p>Publishing packages and web page editors now use Lorem Ipsum as their default model text</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-lg-3 col-md-6 col-sm-6 col-12 mb-lg-0 mb-4">
+                    <div class="services-item wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="service-icon">
+                            <img src="assets/img/homepage/service/serviceicon03.png" alt="">
+                        </div>
+                        <h4>Idea Provide</h4>
+                        <p>Idea is the ipsum consecte tempor incididuntan andolore tumber tur adipisicing elit.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 col-12 mb-lg-0 mb-4">
+                    <div class="services-item wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="service-icon">
+                            <i class="icofont icofont-earphone"></i>
+                        </div>
+                        <h4>People Research</h4>
+                        <p>People is the ipsum consecte tempor incididuntan andolore tumber tur adipisicing elit.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 col-12 mb-lg-0 mb-md-0 mb-4">
+                    <div class="services-item wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="service-icon">
+                            <img src="assets/img/homepage/service/serviceicon02.png" alt="">
+                        </div>
+                        <h4>Business Develop</h4>
+                        <p>People is the ipsum consecte tempor incididuntan andolore tumber tur adipisicing elit.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                    <div class="services-item wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="service-icon">
+                            <i class="icofont icofont-social-concrete5"></i>
+                        </div>
+                        <h4>Marketing</h4>
+                        <p>People is the ipsum consecte tempor incididuntan andolore tumber tur adipisicing elit.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End: Services
+    ============================= -->
+
+    <!-- Start: Fun Fact
+    ============================= -->
+<!--    <section id="fun-fact">-->
+<!--        <div class="container">-->
+<!--            <div class="row text-center">-->
+<!--                <div class="col-lg-3 col-md-6 col-sm-6 col-12 mb-lg-0 mb-4">-->
+<!--                    <div class="fact-item">-->
+<!--                        <i class="icofont icofont-runner-alt-1"></i>-->
+<!--                        <div><strong><span class="counter">9.1</span> B</strong></div>-->
+<!--                        <p>Users</p>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="col-lg-3 col-md-6 col-sm-6 col-12 mb-lg-0 mb-4">-->
+<!--                    <div class="fact-item">-->
+<!--                        <i class="icofont icofont-download-alt"></i>-->
+<!--                        <div><strong><span class="counter">8.2</span> M</strong></div>-->
+<!--                        <p>Downloads</p>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="col-lg-3 col-md-6 col-sm-6 col-12 mb-lg-0 mb-md-0 mb-4">-->
+<!--                    <div class="fact-item">-->
+<!--                        <i class="icofont icofont-star-shape"></i>-->
+<!--                        <div><strong><span class="counter">2.26</span> K</strong></div>-->
+<!--                        <p>Reviews</p>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="col-lg-3 col-md-6 col-sm-6 col-12">-->
+<!--                    <div class="fact-item">-->
+<!--                        <i class="icofont icofont-trophy"></i>-->
+<!--                        <div><strong><span class="counter">9.26</span> M</strong></div>-->
+<!--                        <p>Clients</p>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </section>-->
+    <!-- End: Fun Fact
+    ============================= -->
+
+    <!-- Start: Our Team
+    ============================= -->
+<!--    <section id="ourteam" class="section-padding-top">-->
+<!--        <div class="container">-->
+<!--            <div class="row">-->
+<!--                <div class="col-md-6 offset-md-3 text-center">-->
+<!--                    <div class="section-header">-->
+<!--                        <h2>Our Team</h2>-->
+<!--                        <p class="wow fadeInUp" data-wow-delay="0.1s">Publishing packages and web page editors now use Lorem Ipsum as their default model text</p>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            <div class="row">-->
+<!--                <div class="col-lg-3 col-md-6 col-sm-6 col-12 mb-lg-0 mb-4">-->
+<!--                    <div class="team-member">-->
+<!--                        <img src="assets/img/homepage/team/team01.jpg" alt="">-->
+<!--                        <ul class="member-social text-center">-->
+<!--                            <li><a href="#"><i class="icofont icofont-social-facebook"></i></a></li>-->
+<!--                            <li><a href="#"><i class="icofont icofont-social-twitter"></i></a></li>-->
+<!--                            <li><a href="#"><i class="icofont icofont-social-linkedin"></i></a></li>-->
+<!--                            <li><a href="#"><i class="icofont icofont-social-tumblr"></i></a></li>-->
+<!--                            <li><a href="#"><i class="icofont icofont-social-dribbble"></i></a></li>-->
+<!--                        </ul>-->
+<!--                        <div class="member-title">-->
+<!--                            <h4>All Raihan</h4>-->
+<!--                            <p class="small">Functions and financial expert</p>-->
+<!--                        </div>-->
+<!--                        <div class="inner-bio">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, sapiente.</div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="col-lg-3 col-md-6 col-sm-6 col-12 mb-lg-0 mb-4">-->
+<!--                    <div class="team-member">-->
+<!--                        <img src="assets/img/homepage/team/team02.jpg" alt="">-->
+<!--                        <ul class="member-social text-center">-->
+<!--                            <li><a href="#"><i class="icofont icofont-social-facebook"></i></a></li>-->
+<!--                            <li><a href="#"><i class="icofont icofont-social-twitter"></i></a></li>-->
+<!--                            <li><a href="#"><i class="icofont icofont-social-linkedin"></i></a></li>-->
+<!--                            <li><a href="#"><i class="icofont icofont-social-tumblr"></i></a></li>-->
+<!--                            <li><a href="#"><i class="icofont icofont-social-dribbble"></i></a></li>-->
+<!--                        </ul>-->
+<!--                        <div class="member-title">-->
+<!--                            <h4>Razz Das</h4>-->
+<!--                            <p class="small">UI/UX Designer</p>-->
+<!--                        </div>-->
+<!--                        <div class="inner-bio">Adipisicing Lorem ipsum dolor sit amet, consectetur elit. Iusto, sapiente.</div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="col-lg-3 col-md-6 col-sm-6 col-12 mb-lg-0 mb-md-0 mb-sm-0 mb-4">-->
+<!--                    <div class="team-member">-->
+<!--                        <img src="assets/img/homepage/team/team03.jpg" alt="">-->
+<!--                        <ul class="member-social text-center">-->
+<!--                            <li><a href="#"><i class="icofont icofont-social-facebook"></i></a></li>-->
+<!--                            <li><a href="#"><i class="icofont icofont-social-twitter"></i></a></li>-->
+<!--                            <li><a href="#"><i class="icofont icofont-social-linkedin"></i></a></li>-->
+<!--                            <li><a href="#"><i class="icofont icofont-social-tumblr"></i></a></li>-->
+<!--                            <li><a href="#"><i class="icofont icofont-social-dribbble"></i></a></li>-->
+<!--                        </ul>-->
+<!--                        <div class="member-title">-->
+<!--                            <h4>Masum Parvej</h4>-->
+<!--                            <p class="small">Designer and Web Developer</p>-->
+<!--                        </div>-->
+<!--                        <div class="inner-bio">Iusto Lorem ipsum dolor sit amet, consectetur adipisicing elit. , sapiente.</div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="col-lg-3 col-md-6 col-sm-6 col-12">-->
+<!--                    <div class="team-member">-->
+<!--                        <img src="assets/img/homepage/team/team04.jpg" alt="">-->
+<!--                        <ul class="member-social text-center">-->
+<!--                            <li><a href="#"><i class="icofont icofont-social-facebook"></i></a></li>-->
+<!--                            <li><a href="#"><i class="icofont icofont-social-twitter"></i></a></li>-->
+<!--                            <li><a href="#"><i class="icofont icofont-social-linkedin"></i></a></li>-->
+<!--                            <li><a href="#"><i class="icofont icofont-social-tumblr"></i></a></li>-->
+<!--                            <li><a href="#"><i class="icofont icofont-social-dribbble"></i></a></li>-->
+<!--                        </ul>-->
+<!--                        <div class="member-title">-->
+<!--                            <h4>Ali Sayed</h4>-->
+<!--                            <p class="small">Full Stack Webdeveloper</p>-->
+<!--                        </div>-->
+<!--                        <div class="inner-bio">Elit. Iusto, sapiente Lorem ipsum dolor sit amet, consectetur adipisicing .</div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </section>-->
+    <!-- End: Our Team
+    ============================= -->
+
+    <!-- Start: Testimonial
+    ============================= -->
+<!--    <section id="testimonial" class="section-padding">-->
+<!--        <div class="container">-->
+<!--            <div class="row">-->
+<!--                <div class="col-md-6 offset-md-3 text-center">-->
+<!--                    <div class="section-header">-->
+<!--                        <h2>Testimonial</h2>-->
+<!--                        <p class="wow fadeInUp" data-wow-delay="0.1s">Publishing packages and web page editors now use Lorem Ipsum as their default model text</p>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            <div class="row">-->
+<!--                <div class="col-md-12">-->
+<!--                    <div class="testimonial-carousel text-center">-->
+<!--                        <div class="single-testimonial">-->
+<!--                            <div class="img-rounded"><img src="assets/img/homepage/testimonial/testimonial01.png" alt=""></div>-->
+<!--                            <h4>Naiomi Watson</h4>-->
+<!--                            <p class="title">Lead interaction designer</p>-->
+<!--                            <p>Established fact that a reader will be distracted by the readable content of a page when</p>-->
+<!--                        </div>-->
+<!--                        <div class="single-testimonial">-->
+<!--                            <div class="img-rounded"><img src="assets/img/homepage/testimonial/testimonial02.png" alt=""></div>-->
+<!--                            <h4>Pins kumara</h4>-->
+<!--                            <p class="title">Lead interaction designer</p>-->
+<!--                            <p>Established fact that a reader will be distracted by the readable content of a page when</p>-->
+<!--                        </div>-->
+<!--                        <div class="single-testimonial">-->
+<!--                            <div class="img-rounded"><img src="assets/img/homepage/testimonial/testimonial03.png" alt=""></div>-->
+<!--                            <h4>Mairala Thare</h4>-->
+<!--                            <p class="title">Lead interaction designer</p>-->
+<!--                            <p>Established fact that a reader will be distracted by the readable content of a page when</p>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </section>-->
+    <!-- End: Testimonial
+    ============================= -->
+
+    <!-- Start: Subscribe
+    ============================= -->
+<!--    <section id="subscribe">-->
+<!--        <div class="container">-->
+<!--            <div class="row">-->
+<!--                <div class="col-lg-5 col-md-12 text-lg-left text-center mb-lg-0 mb-3">-->
+<!--                    <i class="icofont icofont-email"></i>-->
+<!--                    <h3>Subscribe now for news</h3>-->
+<!--                    <p>We provide you all of update</p>-->
+<!--                </div>-->
+<!--                <div class="col-lg-7 col-md-12 text-center">-->
+<!--                    <form id="subscribe-form" action="#" method="POST">-->
+<!--                        <input type="email" name="email" id="subscribe-mail" placeholder="Input your email here" required>-->
+<!--                        <input type="submit" class="subscribe-btn boxed-btn mt-xl-0 mt-lg-3 mt-3" value="Subscribe">-->
+<!--                    </form>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </section>-->
+    <!-- End: Subscribe
+    ============================= -->
+
+    <!-- Start: Pricing
+    ============================= -->
+<!--    <section id="pricing" class="section-padding-top">-->
+<!--        <div class="container">-->
+<!--            <div class="row">-->
+<!--                <div class="col-md-6 offset-md-3 text-center">-->
+<!--                    <div class="section-header">-->
+<!--                        <h2>Pricing</h2>-->
+<!--                        <p>Publishing packages and web page editors now use Lorem Ipsum as their default model text</p>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            <div class="row">-->
+<!--                <div class="col-lg-4 col-md-6 col-sm-12 mb-lg-0 mb-4">-->
+<!--                    <div class="pricing-tale wow fadeInUp" data-wow-delay="0.1s">-->
+<!--                        <div class="prcing-head">-->
+<!--                            <h3>Standard</h3></div>-->
+<!--                        <div class="price">$12/<span>Monthly</span></div>-->
+<!--                        <div class="features">-->
+<!--                            <ul>-->
+<!--                                <li><i class="icofont icofont-tick-mark"></i>Busness idea</li>-->
+<!--                                <li><i class="icofont icofont-tick-mark"></i>Development</li>-->
+<!--                                <li><i class="icofont icofont-tick-mark"></i>Build growth</li>-->
+<!--                                <li><i class="icofont icofont-tick-mark"></i>Daily Backup</li>-->
+<!--                                <li><i class="icofont icofont-tick-mark"></i>Marketing</li>-->
+<!--                            </ul>-->
+<!--                            <div class="select-button text-center">-->
+<!--                                <a href="#" class="le-btn boxed-btn"><i class="icofont icofont-ui-cart"></i>Order now</a>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="col-lg-4 col-md-6 col-sm-12 mb-lg-0 mb-4">-->
+<!--                    <div class="pricing-tale wow fadeInUp" data-wow-delay="0.2s">-->
+<!--                        <div class="prcing-head">-->
+<!--                            <h3>Premium</h3></div>-->
+<!--                        <div class="price">$34/<span>Monthly</span></div>-->
+<!--                        <div class="features">-->
+<!--                            <ul>-->
+<!--                                <li><i class="icofont icofont-tick-mark"></i>Busness idea</li>-->
+<!--                                <li><i class="icofont icofont-tick-mark"></i>Development</li>-->
+<!--                                <li><i class="icofont icofont-tick-mark"></i>Build growth</li>-->
+<!--                                <li><i class="icofont icofont-tick-mark"></i>Daily Backup</li>-->
+<!--                                <li><i class="icofont icofont-tick-mark"></i>Marketing</li>-->
+<!--                            </ul>-->
+<!--                            <div class="select-button text-center">-->
+<!--                                <a href="#" class="le-btn boxed-btn"><i class="icofont icofont-ui-cart"></i>Order now</a>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="col-lg-4 col-md-6 col-sm-12">-->
+<!--                    <div class="pricing-tale wow fadeInUp" data-wow-delay="0.3s">-->
+<!--                        <div class="prcing-head">-->
+<!--                            <h3>Business</h3></div>-->
+<!--                        <div class="price">$99/<span>Monthly</span></div>-->
+<!--                        <div class="features">-->
+<!--                            <ul>-->
+<!--                                <li><i class="icofont icofont-tick-mark"></i>Busness idea</li>-->
+<!--                                <li><i class="icofont icofont-tick-mark"></i>Development</li>-->
+<!--                                <li><i class="icofont icofont-tick-mark"></i>Build growth</li>-->
+<!--                                <li><i class="icofont icofont-tick-mark"></i>Daily Backup</li>-->
+<!--                                <li><i class="icofont icofont-tick-mark"></i>Marketing</li>-->
+<!--                            </ul>-->
+<!--                            <div class="select-button text-center">-->
+<!--                                <a href="#" class="le-btn boxed-btn"><i class="icofont icofont-ui-cart"></i>Order now</a>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </section>-->
+    <!-- End: Pricing
+    ============================= -->
+
+    <!-- Start: Recent Blog
+    ============================= -->
+
+<!--    <section id="recent-blog" class="section-padding">-->
+<!--        <div class="container">-->
+<!--            <div class="row">-->
+<!--                <div class="col-md-6 offset-md-3 text-center">-->
+<!--                    <div class="section-header">-->
+<!--                        <h2>Recent Blog</h2>-->
+<!--                        <p class="wow fadeInUp" data-wow-delay="0.1s">Publishing packages and web page editors now use Lorem Ipsum as their default model text</p>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            <div class="row">-->
+<!--                <div class="col-lg-4 col-md-6 col-sm-12 mb-lg-0 mb-4">-->
+<!--                    <article class="blog-post">-->
+<!--                        <div class="post-thumbnail">-->
+<!--                            <img src="assets/img/homepage/blog/blog01.jpg" alt="" class="img-responsive center-block">-->
+<!--                            <ul class="meta-info list-inline">-->
+<!--                                <li class="posted-by">By <a href="#">Murad Takla</a></li>-->
+<!--                                <li class="post-date"><a href="#">25 Jan 2017</a></li>-->
+<!--                                <li class="tags"> Categories: <a href="#">Business</a></li>-->
+<!--                            </ul>-->
+<!--                        </div>-->
+<!--                        <div class="post-content">-->
+<!--                            <div class="post-content-inner">-->
+<!--                                <h5 class="post-title"><a href="blog-single.html">We provide the tools you need to create a blog </a></h5>-->
+<!--                                <p>Consectetur adipi sicing elit, sed do eiusmod tempor incididunt ut labore et.dolore magna aliquauis aute irure dolor eiusmod.</p>-->
+<!--                            </div>-->
+<!--                            <div class="read-more-wrapper">-->
+<!--                                <a href="blog-single.html" class="read-more-link">Read More</a>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </article>-->
+<!--                </div>-->
+<!--                <div class="col-lg-4 col-md-6 col-sm-12 mb-lg-0 mb-4">-->
+<!--                    <article class="blog-post">-->
+<!--                        <div class="post-thumbnail">-->
+<!--                            <img src="assets/img/homepage/blog/blog02.jpg" alt="" class="img-responsive center-block">-->
+<!--                            <ul class="meta-info list-inline">-->
+<!--                                <li class="posted-by">By <a href="#">Aminul</a></li>-->
+<!--                                <li class="post-date"><a href="#">18 Jan 2017</a></li>-->
+<!--                                <li class="tags"> Categories: <a href="#">Marketing</a></li>-->
+<!--                            </ul>-->
+<!--                        </div>-->
+<!--                        <div class="post-content">-->
+<!--                            <div class="post-content-inner">-->
+<!--                                <h5 class="post-title"><a href="blog-single.html">Find out which posts are a hit with Blogger’s built inan</a></h5>-->
+<!--                                <p>Consectetur adipi sicing elit, sed do eiusmod tempor incididunt ut labore et.dolore magna aliquauis aute irure dolor eiusmod.</p>-->
+<!--                            </div>-->
+<!--                            <div class="read-more-wrapper">-->
+<!--                                <a href="blog-single.html" class="read-more-link">Read More</a>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </article>-->
+<!--                </div>-->
+<!--                <div class="col-lg-4 col-md-6 col-sm-12">-->
+<!--                    <article class="blog-post">-->
+<!--                        <div class="post-thumbnail">-->
+<!--                            <img src="assets/img/homepage/blog/blog03.jpg" alt="" class="img-responsive center-block">-->
+<!--                            <ul class="meta-info list-inline">-->
+<!--                                <li class="posted-by">By <a href="#">Spanco</a></li>-->
+<!--                                <li class="post-date"><a href="#">15 Jan 2017</a></li>-->
+<!--                                <li class="tags"> Categories: <a href="#">Business</a></li>-->
+<!--                            </ul>-->
+<!--                        </div>-->
+<!--                        <div class="post-content">-->
+<!--                            <div class="post-content-inner">-->
+<!--                                <h5 class="post-title"><a href="blog-single.html">The possib to monetize through publishing ads on this</a></h5>-->
+<!--                                <p>Numminim Lorem ipsum dolor sit amet, consectetur adiiga elit, abuci sedeiusmod tempor nimni ad veniam, quis nostrud layers.</p>-->
+<!--                            </div>-->
+<!--                            <div class="read-more-wrapper">-->
+<!--                                <a href="blog-single.html" class="read-more-link">Read More</a>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </article>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </section>-->
+
+<!--    &lt;!&ndash; End: Recent Blog-->
+<!--    ============================= &ndash;&gt;-->
+
+    <!-- Start: Contact Us
+    ============================= -->
+
+    <section id="contact-area">
+        <div id="map"></div>
+        <div class="contact-box">
+            <div class="row">
+                <div class="col-lg-5 col-md-12">
+                    <div class="contact-us-info">
+                        <h3>Contact Us</h3>
+                        <ul class="contact-info">
+                            <li>
+                                <i class="icofont icofont-location-pin"></i>
+                                <p>South Windsor, CT Build 06074 sarts</p>
+                            </li>
+                            <li>
+                                <i class="icofont icofont-email"></i>
+                                <p><a href="#" class="__cf_email__" data-cfemail="21404c484d61424e4c51404f580f424e4c">[email&#160;protected]</a>
+                                    <br> <a href="#" class="__cf_email__" data-cfemail="0a63646c654a6e65676b636424696567">[email&#160;protected]</a></p>
+                            </li>
+                            <li>
+                                <i class="icofont icofont-ui-call"></i>
+                                <p>+1-202-555-0104
+                                    <br> +5-402-555-0107</p>
+                            </li>
+                        </ul>
+                        <a href="#" class="live-chat boxed-btn">Live Chat</a>
+                    </div>
+                </div>
+                <div class="col-lg-7 col-md-12">
+                    <div class="get-in-touch">
+                        <h3>Get in Touch</h3>
+                        <p>Feel free to contact with us</p>
+                        {% if success %}
+                        <p>{{ success }}</p>
+                        {% else %}
+                        <form action="/subscribe/" method="POST">
+                        <!-- Very Important csrf Token -->
+                        {% csrf_token %}
+                        <div class = "form-group">
+                            <p>
+                            <h3>{{ form.as_p }}</h3>
+                            </p>
+                            <br>
+                            <input type="submit" name="Subscribe" class = 'btn btn-primary btn-lg'>
+                        </div>
+                        </form>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- End: Contact Us
+    ============================= -->
+
+{% endblock %}
